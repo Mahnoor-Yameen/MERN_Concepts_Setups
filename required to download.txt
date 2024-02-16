@@ -1,0 +1,39 @@
+                                                         REQUIRED TO DOWNLOAD:
+•	SOFTWARE
+o	node js from google
+
+
+•	EXTENSIONS IN VS CODE:
+o	ES7 + react reduce
+o	Auto rename tag
+
+
+•	EXTRAS NPM INSTALL:
+o	npm install react-bootstrap          (command prompt   front-end)
+o	npm install boorstrap                  (command prompt   front-end)
+o	npm install js-cookie                     (command prompt   front-end)
+o	npm add sass                         (command prompt   front-end)
+o	npm install axios                     (command prompt   front-end)
+o	npm install react-icons          (command prompt   front-end)
+o	npm install react-stars         (command prompt   front-end)
+o	npm install sweetalert2           (command prompt   front-end)
+o	npm install mdb-react-ui-kit        (command prompt   front-end)
+o	npm install react-jwt        (command prompt   front-end)
+o	npm install firebase                             (command prompt   front-end)
+o	npm install jwt-decode                           (command prompt   front-end)
+o	npm install express                       (cmd,   back-end)
+o	npm install dotenv                      (command prompt    backend)
+o	npm install cors                      (command prompt    backend)
+o	npm install -g nodemon       (command prompt    backend)
+o	npm install mongodb       (command prompt    backend)
+o	npm install mongoose       (command prompt    backend)
+o	npm install bcryptjs          (command prompt    backend)
+o	npm install jsonwebtoken     (command prompt    backend)
+
+
+
+
+•	EXTERNAL RESOURCES USED:
+o	UnDraw website for illustrations
+o	Coolors website for color theme selection.
+o	Wepik for creative images

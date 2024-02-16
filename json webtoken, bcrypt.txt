@@ -1,0 +1,19 @@
+npm install bcryptjs          (command prompt    backend)
+npm install jsonwebtoken     (command prompt    backend)
+
+
+JSONWEBTOKEN:
+const { sign } = require('jsonwebtoken')
+
+isky pass algo hoga. encoded and decoded token hoga
+
+
+
+
+
+
+
+BCRYPTJS:
+const { hash, compare } = require('bcryptjs')
+
+hash and salt provide krta ha yeh

@@ -1,0 +1,10 @@
+kisi jagah pe click kr k koi page khulwana ho toh 
+1) us word pe link lagao
+2) link ma address wo dena hota jo index.jsx main routes main diya hua
+
+
+
+
+
+
+dynamic:

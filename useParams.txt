@@ -1,0 +1,52 @@
+in index.jsx:
+
+<Route path="/get-product-by-id/:kuchbhi" element={< SingleAdDynamic />} />
+ yani path wohi dena ha bus akhri main :kuchbhi         and bata dain k konsa page kholna ha
+
+
+
+
+on that page yani for here SingleAdDynamic:
+
+import { useParams } from 'react-router-dom'
+  const { kuchbhi } = useParams();
+
+
+
+api fetching
+  useEffect(() => {
+    axios.get('http://localhost:1234/api/get-product-by-id?kuchbhi=${kuchbhi}')                             ?kuchbhi=${kuchbhi}       
+        .then(json => setproductdetail(json.data.ProductById))
+        .catch(err => console.log(err))
+},[])
+
+ON ANY LINK:
+<Link   to="/products/category/${value}">{card ka code}</link>
+
+?kuchbhi=${kuchbhi}     means kuchbhi variable main value ha kuchbhi
+
+
+HOW IT WORKS:
+ab hoga yeh k us path pe / k bad jo bhi likha ayega wo given page open krdega
+
+us page main /get-product-by-id/yahan kuch bhi likha ajayega
+
+ab jab api ban gayi toh api run and fetch hogi for that particular thing and then data ayega
+
+
+
+
+EXAMPLE:
+  <Route path="/get-product-by-id/:_id" element={<SingleAdDynamic />} />                               main.jsx
+
+on page:
+import { useParams } from 'react-router-dom'
+  const { _id } = useParams();
+
+
+  useEffect(() => {
+    axios.get('http://localhost:1234/api/get-product-by-id?_id=${_id}')
+        .then(json => setproductdetail(json.data.ProductById))
+        .catch(err => console.log(err))
+},[])
+

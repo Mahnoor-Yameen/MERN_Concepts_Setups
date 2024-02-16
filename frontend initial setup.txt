@@ -1,0 +1,61 @@
+NOTE:
+
+
+•	Components name CAPITAL LETTER SE START HOTY.
+•	npm = node pakage manager
+•	Packet.json main dependencies main downloaded cheezain dikhegi
+•	Multiple pakages ek sath install hojaty space de kr likhty jao
+•	To run = npm run dev
+•	vs code main powershell se convert kr k command prompt krdena
+
+
+                                                    FrontEND
+
+STEPS OF INITIAL CODING:
+
+TO MAKE IT REACT:
+1.	node.js downloaded ho.
+2.	Project folder open kro upper cmd likho
+3.	In cmd, (npm create vite @latest)  likho, phir enter, then select react, javascript, phir now run pe wo jo jo commands batayega wo line wise likh kr run krdo.
+
+
+REACT BOOTSTRAP DOWNLOADING:
+1.	Google pe react bootstrap pe jao and get started se command la kr COMMAND PROMPT TERMINAL main likh do.
+
+
+SOME INITIAL CODING:
+2.	App.css and index.css and App.jsx nki coding hata dain.
+3.	Koi bhi file ho rfce wala template dena zrori hai for start coding.
+
+
+REACT BOOTSTRAP ESSENTIALS:
+1.	React bootstrap se npm wali command la kr command terminal main paste kr k install krlo, to check kinstall hua ya nh go to dependencies 
+in the packet.json.
+2.	Main.jsx main css import krwao, code utha lo get started se from google.
+3.	In app.jsx rfce k bad div pe className=”text-danger” kr k check krlo.
+4.	Classes dengy hum className se.
+
+WRAPPING:
+•	Return k ander <>  all coding </> kr k wraaping krni zrori ha in each rfce.
+
+
+COMPONENTS ESSEENTIALS
+4.	In src, right click kr k component ka folder banalo.
+5.	Inside component, you can make files FIRST ALPHABET CAPITAL. 
+6.	Inside file, rfce likhna and then start coding.
+
+
+PAGES:
+•	Inside src
+•	Us folder k ander main pehly direct Capital.jsx banaya krti thi lekin yahan per pages folder k ander hum or bhi folders bana rahy.
+
+INSIDE EACH PAGE:
+o	folder name se milti jhulti .jsx file banao. 
+o	name.scss  file banao for adding css.
+o	In jsx file main scss file import krwalo   (import “./AddNewGig.scss”)    
+o	./ ek dafa krny se hum parent folder main chaly jaty hain
+
+
+SCSS FILE ESSENTIALS:
+1.	scss file jo banayi ha wo aisy hi run nh hogi usky liye.
+2.	Npm add sass

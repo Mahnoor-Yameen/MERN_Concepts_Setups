@@ -1,0 +1,27 @@
+dynamic page pe yeh likho, wo page jo khulyga:
+import { useParams } from 'react-router-dom'
+
+
+return k uper:
+ const { _id } = useParams();
+
+
+      const [productdetail, setproductdetail] = useState({})
+
+
+
+
+  // api fetching
+  useEffect(() => {
+    axios.get(`http://localhost:1234/api/get-product-by-id?_id=${_id}`)
+        .then(json => setproductdetail(json.data.ProductById))
+        .catch(err => console.log(err))
+},[])
+
+
+ab return mai jaisy chaho use krlo
+
+
+index.jsx main routing aisy hogi:
+     <Route path="/get-product-by-id/:_id" element={<SingleProductDynamic />} />
+

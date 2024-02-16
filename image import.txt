@@ -1,0 +1,9 @@
+src k ander images ka folder bana len 
+ab us folder main image rakh dain 
+
+
+ab jahan use krni hai udher:
+import img2 from '../../images/1.png'
+
+jana use kena ha udher
+src={img2}

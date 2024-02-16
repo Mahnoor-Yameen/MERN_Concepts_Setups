@@ -1,0 +1,31 @@
+                                                                 BACKEND
+INITIAL SETUP
+
+1) folder banao
+2) open that folder and in path area write cmd and open cmd.
+3)in cmd, write following commands one by one:
+4)npm init
+5)enter 2 times
+6)description agar kuch likhna chahain to likhdain
+7)4 times enter
+8)author name de dain
+9) enter
+10)npm install express
+11) cls for clearing screen
+12)code .        to open vs code
+
+
+                                                             IN VS CODE FURTHER SETUP
+
+1) create index.js file
+2)craete .env file and in command prompt do: npm install dotenv       otherwise error ayega
+3)npm install cors
+3)express website open karain in google, getting started main se hello world code copy paste krdain in index.js and in command prompt, write node index.js 
+4)port no milega. go to google and write localhost:that port number.   and you will get your output there which is hello world.
+BASIC KNOWLEGE:
+1).env file main hum environment variables rakhty yani security wali chhezain jaisy hash password wagera ku k jab bhi hum apna pura folder kisi ko bhi dety hain tab .env file khud ba khud apny aap ko alag krleti or kahin or nh jati.
+2) API testing k liye hum use krengy Thunder Client.
+3)node index.js se code run hota 
+4) API: GET PUT POST DELETE             these are the 4 types of APIs
+5) terminal ko har dafa refresh krna hota ha jab bhi code ma koi changings karain phir har dafa likhty node index.js, is se bachny k liye hum nodemon install krty (npm install -g nodemon)    phir bus ek dafa server start krty hain nodemon index.js and jo bhi changings karengy wo khud ba khud ati jayegi.
+6) CORS: cors install krty hain npm install cors, yeh use hota ha ku k yeh allow karta hai web pages ko request karnay mein aur data share karnay mein. yeh header define krta ha and web security main kam ata ha.  main work iska backend and frontend sath chalany ma hota ha k dono ko data sharing allow krwata ha.

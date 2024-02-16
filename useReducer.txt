@@ -1,0 +1,19 @@
+import { useReducer } from "react";
+
+initial_data ={
+
+
+}
+
+
+
+function reducer(state, action) {
+  // ...
+}
+
+
+
+function MyComponent() {
+  const [state, dispatch] = useReducer(reducer, initial_data);
+  // ...
+

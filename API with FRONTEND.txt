@@ -1,0 +1,9 @@
+API main folder banaya Ad name ka ab Ad se related saari APIs udher hi rakhengy
+
+
+
+FRONTEND:
+
+dekho frontend main jo routing krty hain usmain path main jo bataty hain wo basically hum rasta bata rahy hoty hain
+
+and element main wo jsx ki file(component ya preferably page dety hain jahan humain jana hota ha ) is tarha jab user us path pe hota ha toh usko wo wala page mil jata ha

@@ -1,0 +1,38 @@
+                                             CONTEXT CREATION IN CONTEXT.JSX
+ek folder banalain usmain context.jsx ki file bana lain
+top: 
+import { createContext } from 'react'   
+
+ 
+code:
+export const logincontext=createContext("initial value")   //export isliye likha ha ku k yeh context har jagah use krna hai
+
+
+return:
+    <logincontext.Provider value={{state,dispatch}}>
+        {children}
+    </logincontext.Provider>      
+
+
+1) yahan pe logincontext.Provider se humny context bhej diya sab jagah pe       
+2) value k ander jo chez likhi jati ha basically wo accessible hoti ha har jagah pe.
+3) children ka concept smj nh araha       
+4) jis name ka context banaya hota ha ushi name ko name.Provider krty yani batatay k yeh wala context phelana ha
+MAIN.JSX WORK :
+1)import krwao wo function name jo context.jsx file main hoga rfce wali command se aya hua from "path of context.jsx file":
+import LoginContextProvider from './GlobalContext/context.jsx'            
+2)App.jsx ko wrap krwana ha  us function name se jo abhi uper import krwaya:
+<LoginContextProvider>
+ <App />
+ </LoginContextProvider>        
+
+
+--------------------------------------------------------------------------                                       
+                                                    USING OF CONTEXT
+
+
+1) import krwaty hain context ka name... context.jsx ka path de kr 
+import { logincontext } from './GlobalContext/context'
+2)import krwalo useContext hook from react
+3) ab bata rahy k kon konsi values chahiye and = useContext(context ka name)
+const {state, dispatch}=useContext(logincontext)

@@ -1,0 +1,34 @@
+
+
+cluster name is the project name
+ip address dena hota ha ek 0.0.0.0
+Browse collection pe dikhta important data
+
+                                                                   MONGODB
+
+•	go to google then mongodb
+•	start free
+•	signup with google
+•	cluster name rakhlo
+
+•	ip address apki apni already added hogi and or agar jiski bhi chahain to add krlain
+•	ab jayen connect pe 
+•	drivers
+•	ad your connection string wala code copy paste krlain kahin pe 
+
+
+in vs code backend:
+1) npm install mongodb
+2) npm install mongoose
+3) .env file main jayen and likhen
+MONGO_URL=mongodb+srv://mahnooryameen321:<password>@fashionb77pdb.net/?retryWrites=true&w=majority
+ab yahan password apna likhen
+MONGO_URL=mongodb+srv://njbjkcbeqkbkjebcjkbcryWrites=true&w=majority
+done!
+
+
+
+---------------------------------------------------------------------------
+USING MONGO DB in your files:
+const { connect } = require('mongoose')
+require('dotenv').config()

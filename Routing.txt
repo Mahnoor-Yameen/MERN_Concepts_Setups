@@ -1,0 +1,18 @@
+                                                       ROUTING:
+Step 1:
+
+1.	Command terminal main ja kr likho npm install react-router-dom 
+2.	Ab main.jsx main jao then upper likho (import ReactDOM from “react-dom/client”)
+3.	Ushi k nechy likho     (import {BrowserRouter} from react-router-dom)
+4.	React strict k tag k bech main BrowserRouter ka tag de do.
+5.	Google pe react router dom likho then migrating wali jagah pe jao then scroll down ek code ayega usmain se routes wala pura tag copy kr k app.jsx main paste krna ha sath hi sath upper route and routes import bhi krwana in app.jsx.
+
+Step 2:
+
+•	Import admin, user, boutique, guest in the app.jsx
+
+Step 3:
+
+
+1.	Global context banayengy ku k kuch cheezain sabko access krni hain jaisy sign in and log in sabko chahiye chahy wo user ho ya admin , boutique, guest.
+2.	Folder banega for global context then us folder k ander 2 files banalin ek context.jsx and ek reducer.jsx 

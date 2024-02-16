@@ -1,0 +1,5 @@
+                                                                    Cookies:
+
+
+1.	Initially token undefined hota ha.
+2.	Token dekhta ha by … google pe website host karain then ap chaly jayen inspect pe then application pe then cookies open karain wahan apko apna localhost dikhega uspe click karain toh token details ajayegi.

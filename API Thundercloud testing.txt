@@ -1,0 +1,4 @@
+by id, name wala:
+
+api/route jo bhi ho?CategoryName=directname
+

@@ -1,0 +1,27 @@
+
+receiving aisy hogi
+
+
+
+
+
+  <div className=" d-flex container my-1 mx-5" >
+                
+                    {Category.map((value,index)=>
+                 
+
+                //  ROW
+                    <td key={index} className='mx-2 '>
+
+                        {/* COLUMN N */}
+                        <tr className='mx-3'>
+                        {value.CategorySVG && (
+                        <ReactSVG
+                          src={`data:image/svg+xml;utf8,${encodeURIComponent(value.CategorySVG)}`}
+                          className="svg-container"
+                          />
+                      )}
+                        </tr>
+
+
+

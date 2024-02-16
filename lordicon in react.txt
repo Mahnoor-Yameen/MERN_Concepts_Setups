@@ -1,0 +1,23 @@
+npm install lord-icon-element lottie-web         sabse pehly install krlo
+
+
+
+USING:
+
+import lottie from 'lottie-web';
+import { defineElement } from 'lord-icon-element';
+defineElement(lottie.loadAnimation);
+
+
+CODE:
+
+    <lord-icon
+    src="https://cdn.lordicon.com/xzalkbkz.json"
+    trigger="hover"
+    
+    style={{width:'200px',height:'200px'}}>
+</lord-icon>
+
+
+
+that's how we use it
